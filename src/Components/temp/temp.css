@@ -1,5 +1,5 @@
 .app-container {
-  background-color: rgb(38, 23, 248);
+  background-color: rgb(44, 63, 117);
   width: 400px;
   height: 400px;
   display: flex;
@@ -52,4 +52,10 @@
   color: white;
   background-color: rgb(63, 66, 66);
   font-size: 30px;
+}
+.cold {
+  background-color: rgb(53, 106, 204);
+}
+.hot {
+  background-color: darkred;
 }
