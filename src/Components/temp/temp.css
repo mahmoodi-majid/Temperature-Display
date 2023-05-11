@@ -1,3 +1,55 @@
-h1 {
-    color: red;
+.app-container {
+  background-color: rgb(38, 23, 248);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 8em;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.temperature-display {
+  width: 200px;
+  height: 200px;
+  border: 4px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+  color: white;
+}
+.button-Container {
+  width: 76%;
+  display: flex;
+  justify-content: space-between;
+  align-items: c;
+}
+.button-Container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 90px;
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: white;
+  background-color: rgb(63, 66, 66);
+  font-size: 30px;
 }

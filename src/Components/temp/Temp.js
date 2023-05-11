@@ -7,7 +7,7 @@ export default class Temp extends Component {
         <div className='app-container'>
           <div className='tempPerature-display-container'>
             <div className='temperature-display cold'>
-                10 C°
+                10&#176;C
             </div>
           </div>
           <div className='button-Container'>
